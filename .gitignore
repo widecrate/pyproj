@@ -1,0 +1,11 @@
+# vim swapfiles
+.*.sw?
+
+# python binaries
+*.py?
+
+# virtual environment
+.venv/
+
+# uv lockfile
+uv.lock
