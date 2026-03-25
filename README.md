@@ -54,3 +54,25 @@ Alternatively, if you have `pip` instead:
 [scalc]: ./Simple%20Calculator.py
 [bpoke]: ./pokemon%20game.py
 [uvweb]: https://astral.sh/uv
+
+## Running the Code
+
+1. For the graphical Simple Calculator:
+   ```
+   python Simple\ Calculator.py
+   ```
+   A window containing some calculator buttons should appear.
+
+   You can click buttons to add numbers or operators to the calculation bar, then click `=` to get the answer.
+   The calculator currently only supports single additions, multiplications, subtractions, and divisions. You
+   will need to click `Clear` after each run to reset the calculator.
+
+2. For the Pokemon Game:
+   ```
+   python pokemon\ game.py
+   ```
+   This game runs in your terminal and lets you choose a Pokemon, wander out to battle, and fight another Pokemon.
+
+## Known Bugs
+
+- Calculator cannot handle multiple operations, e.g., `2*3*4`, and does not fail gracefully.
